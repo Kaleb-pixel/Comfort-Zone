@@ -1,0 +1,323 @@
+
+
+ body{
+     margin: auto 0px;
+ }   
+
+#container{
+    background: orange;
+    max-width:auto;
+    margin: auto;
+    
+   
+    
+}
+.CZ{
+    font-weight:bolder;
+    color: orange;
+}
+
+.frm1{
+    position: relative;
+    left: 40%;
+    width:350px;
+}
+
+#start{
+    background-color: azure;
+    text-shadow: 5px 5px 5px grey;
+   
+}
+.together{
+    display:flex;
+}
+
+#contacts{
+    
+    width: 350px;
+    transition: width 1s;
+    background-color: rgb(170, 182, 136);
+    padding-left:130px;
+    padding-right: 179px;
+}
+#contacts:hover{
+    width: 400px;
+}
+a:link{
+    color: #eb8282;
+    text-decoration: none;
+    line-height: 30px;
+}
+a:hover{
+    text-decoration: none;
+    font-size: 17px; 
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+
+}
+
+h5{
+               
+    background-color: #cbcbef;
+                float:right;
+                
+}
+.need{
+                background-color: beige;
+                text-decoration: underline;
+                font-weight:bolder;
+                float: none;
+                text-shadow: 5px 5px 5px grey;
+                
+                                
+}
+#first{
+                background-color:azure;
+                float: none;
+                
+}
+.form-group{
+                width: 400px;
+}
+#all{
+
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(214, 212, 199, 0.85) !important;
+
+}
+.welcome{
+                
+               
+                text-shadow: 5px 5px 5px grey;
+                
+}
+#info{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+#info a{
+    margin: 10px;
+}
+
+
+.qwe {
+    background-color:#011460;
+    font-family: cursive;
+    color: blanchedalmond;
+}
+
+
+#n {
+    text-align: center;
+    font-weight: 900;
+    
+}
+
+.two {
+    float: right
+}
+
+.img2 {
+    
+    float: left;
+    
+}
+
+h1 {
+    font-family: serif;
+    text-align: center;
+    font-size: 48px;
+    color: orange;
+    
+}
+
+
+
+
+
+.services {
+    
+    width: 70%;
+    background-color: orange;
+    transition: width 1s;
+    
+}
+#services:hover{
+    width: 400px;
+}
+
+
+.texts {
+   background-color: rgba(214, 212, 199,0.85);
+    color:black;
+    padding: 15px;
+    font-size: 15px;
+    
+    border: none;
+    height: 20px;
+}
+#submit{
+    margin-left: 5px;
+    color: orange;
+    height: 20px;
+    width: 22px;
+    background: url(images/Search-icon.png) no-repeat right center;
+}
+
+.sticky{
+    position: sticky;
+    top: 0px;
+}
+
+
+#send {
+    float: right;
+    background: azure;
+    color: orange;
+    font-size: 20px;
+}
+
+
+
+
+.footer {
+    text-align: center;
+    float: none;
+}
+
+
+
+
+
+.left {
+    float: left;
+    width: 370px;
+    height: 100px;
+}
+.menu{
+    height:70px;
+    /* float: none; */
+    background: orange;
+    padding: 7px 0;
+    margin-top: -20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+
+}
+.menu ul li{
+    
+    padding: 0 110px;
+    height: 35px;
+    border-right: 1px solid azure;
+}
+.menu ul li:last-child{
+    border-right: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: azure;
+    line-height: 30px;
+    transition: font-size 1s linear;
+}
+.menu ul li a:hover{
+    /* font-size: 20px; */
+    font-weight: bold;
+    color:azure;
+}
+#sub {
+    float: right;
+    background: azure;
+    color: orange;
+}
+
+
+
+
+
+
+
+.about-img {
+      margin-top: 30px; 
+        
+}
+
+.about {
+    height: 500px;
+    
+    font-size: 15px;
+    
+}
+
+
+
+#call {
+    text-decoration: underline;
+    font-weight: bolder;
+    text-transform:uppercase;
+}
+
+#products {
+    float: none;
+}
+
+
+
+#contacts {
+    float:left;
+}
+
+
+
+
+
+
+#name {
+    width: 309px;
+    
+    
+}
+
+#email {
+    width: 309px;
+}
+
+#password {
+    width: 309px;
+}
+
+#country {
+    width: 309px;
+}
+
+#city {
+    width: 309px;
+}
+
+#postcode {
+    width: 309px;
+}
+#more{
+    
+    padding: 0.3rem 1rem;
+    
+    transition: background 1s;
+    border: none;
+    margin-left: 1rem;
+}
+
+#more:hover {
+    background: rgb(189, 124, 3);
+    color: #f3f3f3;
+    
+}
+
